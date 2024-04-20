@@ -1,9 +1,10 @@
 {
-  "name": "simplecalculator",
-  "version": "1.0.0",
+  "name": "abd_basit-simplecalculator",
+  "version": "1.0.1",
   "description": "A simple calculator with Typescript, Node.js and Inquirer",
   "main": "index.js",
   "type": "module",
+  "bin":"index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

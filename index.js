@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 //Prompt number & operator
 const answer = await inquirer.prompt([
@@ -30,4 +31,3 @@ else if (answer.operator === "*") {
 else if (answer.operator === "/") {
     console.log(`Your answer is ${answer.firstNumber / answer.secondNumber}`);
 }
-c;

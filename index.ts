@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 import inquirer from "inquirer";
 
 //Prompt number & operator
@@ -30,4 +32,4 @@ if (answer.operator === "+") {
     console.log(`Your answer is ${answer.firstNumber * answer.secondNumber}`)
 } else if (answer.operator === "/") {
     console.log(`Your answer is ${answer.firstNumber / answer.secondNumber}`)
-}c
+}
